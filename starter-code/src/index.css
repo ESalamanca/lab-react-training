@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 1em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,4 +11,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.id-card {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  width: 50%;
+}
+
+.idcard-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2em;
+}
+
+.idcard-info p {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }

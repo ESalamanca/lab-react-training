@@ -1,9 +1,10 @@
 import React from "react";
+import moment from "moment";
 
 class IdCard extends React.Component {
   render() {
     let height = (this.props.height / 100).toString() + "m";
-    let birthdate = this.props.birth.toDateString();
+    let birthdate = moment(this.props.birth).format("ddd MM DD YYYY");
     return (
       <div className="id-card">
         <img src={this.props.picture} alt="user avatar" />

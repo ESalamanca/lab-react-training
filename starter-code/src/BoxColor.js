@@ -16,11 +16,12 @@ class Random extends React.Component {
 
     const divStyle = {
       backgroundColor: rgb,
-      height: "14vh",
+      height: "21vh",
       textAlign: "center",
       verticalAlign: "center",
       marginTop: "2px",
-      border: "1px solid black"
+      border: "1px solid black",
+      color: "white"
     };
 
     return (

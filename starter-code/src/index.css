@@ -44,3 +44,31 @@ code {
   border: 1px solid black;
   padding: 3px;
 }
+
+.cardContainer {
+  display: flex;
+}
+
+.credit-card {
+  width: 350px;
+  border-radius: 15px;
+  padding: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.credit-card img {
+  height: 25px;
+  margin-left: 17em;
+}
+
+.card-number {
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.name {
+  margin-top: 0;
+}

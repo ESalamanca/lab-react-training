@@ -72,3 +72,20 @@ code {
 .name {
   margin-top: 0;
 }
+.driver-card {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  margin-top: 1em;
+  border-radius: 1em;
+  color: white;
+}
+.driver-picture {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 1em;
+}

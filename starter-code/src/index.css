@@ -97,3 +97,8 @@ code {
   font-size: 1em;
   cursor: pointer;
 }
+
+.clickable-picture {
+  width: 300px;
+  cursor: pointer;
+}

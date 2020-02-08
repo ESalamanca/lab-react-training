@@ -89,3 +89,11 @@ code {
   object-fit: cover;
   margin-right: 1em;
 }
+
+.like-button {
+  width: 130px;
+  padding: 0.4em;
+  margin-right: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}

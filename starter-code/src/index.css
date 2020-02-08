@@ -102,3 +102,8 @@ code {
   width: 300px;
   cursor: pointer;
 }
+
+.dice {
+  width: 250px;
+  cursor: pointer;
+}

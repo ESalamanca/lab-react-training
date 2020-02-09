@@ -8,7 +8,7 @@ class IdCard extends React.Component {
     return (
       <div className="id-card">
         <img src={this.props.picture} alt="user avatar" />
-        <div class="idcard-info">
+        <div className="idcard-info">
           <p>
             <strong>First name:</strong> {this.props.firstName}
           </p>
